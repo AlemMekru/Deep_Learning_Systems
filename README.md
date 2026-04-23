@@ -1,4 +1,4 @@
-# Project 4 — Deep Learning Systems
+# Deep Learning Systems
 
 ## Advanced Neural Architectures, Experimental Comparison, and Interpretation
 
