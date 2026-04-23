@@ -36,7 +36,10 @@ The broader annotation framework supports categories such as:
 - **Suspicious**
 - **High Risk**
 
-For the first modeling phase, an initial binary setup (**Safe vs Risk**) may be used to improve stability while the labeled dataset continues to grow.
+Because the initial gold-standard dataset contains very few High Risk examples, the first modeling phase uses a binary setup:
+
+- **Safe**
+- **Risk**
 
 This work is designed as a Canadian housing-focused AI prototype that may later support a larger renter-first housing intelligence system.
 
@@ -77,13 +80,13 @@ This project explores how AI can help identify these risks earlier.
 
 ## Methods
 
-This project is expected to include:
+This project includes:
 
 - dataset loading and inspection  
 - text cleaning and preprocessing  
 - manual annotation of gold-standard labels  
 - tokenization using a Transformer tokenizer  
-- baseline Transformer model training  
+- **baseline DistilBERT Transformer model**  
 - experimental model comparison  
 - validation and evaluation metrics  
 - interpretation of predictions  
@@ -99,7 +102,7 @@ The system is designed to support categories such as:
 - Suspicious Listings  
 - High Risk Listings  
 
-Potential detailed subtypes may include:
+Possible detailed renter-risk patterns may include:
 
 - Scam Risk  
 - Hidden Fee Risk  
